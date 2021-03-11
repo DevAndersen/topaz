@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevAndersen.Topaz.Client", "DevAndersen.Topaz.Client\DevAndersen.Topaz.Client.csproj", "{AF4798E8-6BD8-4562-AFDE-F0E22888FCFD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevAndersen.Topaz.Common", "DevAndersen.Topaz.Common\DevAndersen.Topaz.Common.csproj", "{65A4110F-46D1-495B-9E25-16724BA272B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C80A31D5-C006-4B68-9ED2-99503F188480}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevAndersen.Topaz.ServerLib", "DevAndersen.Topaz.ServerLib\DevAndersen.Topaz.ServerLib.csproj", "{83E3F501-8240-4A6B-8DC1-DEC1621709EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{E40B6A92-9BB5-4889-984B-C1DC31079E7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevAndersen.Topaz.DemoServer", "DevAndersen.Topaz.DemoServer\DevAndersen.Topaz.DemoServer.csproj", "{36A067D7-DB19-42B4-AE75-E18C545E4D4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shortcuts", "Shortcuts", "{087F2744-3A04-43CB-91CD-A0476696EFE3}"
+	ProjectSection(SolutionItems) = preProject
+		Shortcuts\Topaz - Action.shortcut = Shortcuts\Topaz - Action.shortcut
+		Shortcuts\Topaz - Main Loop.shortcut = Shortcuts\Topaz - Main Loop.shortcut
+		Shortcuts\Topaz - Manage Profiles.shortcut = Shortcuts\Topaz - Manage Profiles.shortcut
+		Shortcuts\Topaz.shortcut = Shortcuts\Topaz.shortcut
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF4798E8-6BD8-4562-AFDE-F0E22888FCFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF4798E8-6BD8-4562-AFDE-F0E22888FCFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF4798E8-6BD8-4562-AFDE-F0E22888FCFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF4798E8-6BD8-4562-AFDE-F0E22888FCFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65A4110F-46D1-495B-9E25-16724BA272B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65A4110F-46D1-495B-9E25-16724BA272B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65A4110F-46D1-495B-9E25-16724BA272B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65A4110F-46D1-495B-9E25-16724BA272B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83E3F501-8240-4A6B-8DC1-DEC1621709EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E3F501-8240-4A6B-8DC1-DEC1621709EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E3F501-8240-4A6B-8DC1-DEC1621709EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E3F501-8240-4A6B-8DC1-DEC1621709EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36A067D7-DB19-42B4-AE75-E18C545E4D4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A067D7-DB19-42B4-AE75-E18C545E4D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A067D7-DB19-42B4-AE75-E18C545E4D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A067D7-DB19-42B4-AE75-E18C545E4D4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{36A067D7-DB19-42B4-AE75-E18C545E4D4E} = {E40B6A92-9BB5-4889-984B-C1DC31079E7A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC3500D3-001C-4DD8-93AD-3F0C6CF367D9}
+	EndGlobalSection
+EndGlobal
